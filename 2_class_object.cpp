@@ -57,7 +57,7 @@ void reg_book :: display()
 
 //  MAIN FUNCTION
 
-int main()
+void main()
 {
     reg_book object;
     
@@ -67,7 +67,6 @@ int main()
     object.travel();
     object.display();
 
-    return 0;
 }
 
 
