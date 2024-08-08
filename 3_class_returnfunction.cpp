@@ -39,7 +39,7 @@ class add
 
 //  MAIN FUNCTION
 
-int main()
+void main()
 {
     add object;
 
@@ -47,7 +47,6 @@ int main()
 
     object.addition();
 
-    return 0;
 }
 
 
