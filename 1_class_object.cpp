@@ -52,7 +52,7 @@ class fact_even  //  "fact" IS THE CLASS NAME
 
 //  MAIN FUNCTION
 
-int main()
+void main()
 {
     //  CREATING OBJECT FOR THE CLASS "fact", 'object' IS THE OBJECT OF THE CLASS
 
@@ -65,7 +65,6 @@ int main()
     object.even_odd();      //  EVEN ODD FUNCTION
 
 
-    return 0; 
 }
 
 
