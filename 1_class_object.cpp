@@ -6,6 +6,7 @@ using namespace std;
 class fact_even  //  "fact" IS THE CLASS NAME
 {
     public:     //  ACCESS SPECIFIER
+       
         int num, sum = 1;   //   MEMBER VARIABLE ALSO CALLED ATTRIBUTES OR PROPERTIES
     
     //  DEFINE FUNCTION
@@ -52,7 +53,7 @@ class fact_even  //  "fact" IS THE CLASS NAME
 
 //  MAIN FUNCTION
 
-void main()
+int main()
 {
     //  CREATING OBJECT FOR THE CLASS "fact", 'object' IS THE OBJECT OF THE CLASS
 
@@ -64,7 +65,7 @@ void main()
 
     object.even_odd();      //  EVEN ODD FUNCTION
 
-
+    return 0;
 }
 
 
