@@ -14,16 +14,16 @@ class reg_book
 
         //  FUNCTION DECLARE INSIDE THE CLASS
 
-        void reg();
-        void travel();
-        void display();
-};
+        int reg();
+        int travel();
+        int display();
+}object;
 
 //   THE DECLARED FUNCTION IS DEFINING OUTSIDE FO THE CALSS
 
 //  DEFINE THE FUNCTION 'reg()'
 
-void reg_book :: reg()
+int reg_book :: reg()
 {
     cout << "Enter name : ";
     cin >> name;
@@ -31,21 +31,26 @@ void reg_book :: reg()
     cin >> age;
     cout << "Enter address : ";
     cin >> address;
+
+    return 0;
 }
 
 //   DEFINE THE FUNCTION 'travel()'
 
-void reg_book :: travel()
+int reg_book :: travel()
 {
     cout << "\nEnter from : ";
     cin >> from;
     cout << "\nEnter to : ";
     cin >> to;
+
+    return 0;
+
 }
 
 //   DEFINE THE FUNCTION 'display()'
 
-void reg_book :: display()
+int reg_book :: display()
 {
     cout << endl;
     cout << "\nName is : " << name;
@@ -53,20 +58,24 @@ void reg_book :: display()
     cout << "\nAddress is : " << address;
     cout << "\nFrom : " << from;
     cout << "\nTo : " << to << endl;
+
+    return 0;
 }
 
 //  MAIN FUNCTION
 
-void main()
+int main()
 {
-    reg_book object;
+    // reg_book object;
     
     //  CALLING THE FUNCTION
 
     object.reg();
     object.travel();
     object.display();
-
+    cout << "Size of object : " << sizeof(object);
+    return 0;
+    
 }
 
 
